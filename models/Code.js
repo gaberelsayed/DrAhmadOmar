@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 
 
 const CodeSchema = new Schema({
-
+  
     isUsed: {
         type: Boolean, 
         required: true, 
